@@ -11,6 +11,7 @@
 		26E710DC2A4195930016CE63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E710DB2A4195930016CE63 /* ContentView.swift */; };
 		26E710DE2A4195950016CE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E710DD2A4195950016CE63 /* Assets.xcassets */; };
 		26E710E12A4195950016CE63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E710E02A4195950016CE63 /* Preview Assets.xcassets */; };
+		26E710E82A4196E80016CE63 /* TBCloudBackupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E710E72A4196E80016CE63 /* TBCloudBackupManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		26E710DB2A4195930016CE63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		26E710DD2A4195950016CE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26E710E02A4195950016CE63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26E710E72A4196E80016CE63 /* TBCloudBackupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBCloudBackupManager.swift; sourceTree = "<group>"; };
+		26E710E92A4197270016CE63 /* TBCloudBackupManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TBCloudBackupManager.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +54,9 @@
 		26E710D82A4195930016CE63 /* TBCloudBackupManager */ = {
 			isa = PBXGroup;
 			children = (
+				26E710E92A4197270016CE63 /* TBCloudBackupManager.entitlements */,
 				26E710D92A4195930016CE63 /* TBCloudBackupManagerApp.swift */,
+				26E710E72A4196E80016CE63 /* TBCloudBackupManager.swift */,
 				26E710DB2A4195930016CE63 /* ContentView.swift */,
 				26E710DD2A4195950016CE63 /* Assets.xcassets */,
 				26E710DF2A4195950016CE63 /* Preview Content */,
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E710E82A4196E80016CE63 /* TBCloudBackupManager.swift in Sources */,
 				26E710DC2A4195930016CE63 /* ContentView.swift in Sources */,
 				26E710DA2A4195930016CE63 /* TBCloudBackupManagerApp.swift in Sources */,
 			);
@@ -264,10 +270,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TBCloudBackupManager/TBCloudBackupManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TBCloudBackupManager/Preview Content\"";
-				DEVELOPMENT_TEAM = EKM7RAGNA6;
+				DEVELOPMENT_TEAM = 2JVZ3VZ64M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,7 +287,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eggbrainstudio.TBCloudBackupManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theknot.thebump.qa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,10 +300,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TBCloudBackupManager/TBCloudBackupManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TBCloudBackupManager/Preview Content\"";
-				DEVELOPMENT_TEAM = EKM7RAGNA6;
+				DEVELOPMENT_TEAM = 2JVZ3VZ64M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eggbrainstudio.TBCloudBackupManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theknot.thebump.qa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
